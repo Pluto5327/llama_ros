@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 project(llama_cpp_vendor)
+option(GGML_CUDA "Enable CUDA backend for llama.cpp" ON)
 
 include(FetchContent)
 find_package(ament_cmake REQUIRED)
